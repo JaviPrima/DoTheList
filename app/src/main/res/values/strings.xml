@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">DoTheList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayuda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Menu nav -->
+    <string name="nav_header_title">Menú</string>
+
+    <!-- Registrar Gasto -->
+    <string name="menu_registrar">Registar gasto</string>
+
+    <string name="text_tvCategoria">Categoría:</string>
+    <string name="text_etCategoria">Alimentación</string>
+
+    <string name="text_tvProductoservicio">Producto o servicio:</string>
+    <string name="text_etProductoservicio">Pizza</string>
+
+    <string name="text_tvImporte">Importe:</string>
+    <string name="text_etImporte">8.75</string>
+
+    <string name="text_tvFecha">Fecha:</string>
+    <string name="text_etFecha">--/--/----</string>
+
+    <string name="text_tvComentario">Comentario:</string>
+    <string name="text_tmComentario">Pizzería Andrea.\nCalle Colón.\nHe usado cupón descuento.</string>
+
+
+    <!-- Consultar Gasto -->
+    <string name="menu_consultar">Consultar gasto</string>
+
+    <string name="text_tvGastado">Llevas gastado un total de:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Ver detalles -->
+    <string name="menu_detalles">Más detalles</string>
+
+
+    <!-- Filtrar gastos -->
+    <string name="menu_filtrar">Filtrar</string>
+
+
+    <!-- Filtrado gastos -->
+    <string name="menu_filtrado">Consultar gasto filtrado</string>
+
+
+    <!-- Filtrado gastos -->
+    <string name="menu_comparar">Comparar gastos</string>
+
+
+    <!-- Ayuda  -->
+    <string name="menu_ayuda">Ayuda</string>ç
+
+    <!-- Menu -->
+    <string name="ayuda_consultar"><b>Consultar Gastos</b>\n\nEsta es la pantalla principal, aquí puedes visualizar el gasto total que has realizado y una vista reducida de los gastos mostrando así: Categorías, Producto e Importe.\n\nSi presionas sobre el botón con una lupa dentro, podrás buscar Categorías y Productos además de ordenar.\nSi presionas sobre un gasto podrás ver todos los datos del gasto.</string>
+
+    <!-- Menu -->
+    <string name="ayuda_comparar"><b>Comparar Gastos</b>\n\nEsta pantalla te permite comparar de dos a cinco categorías, mostrándolas en una gráfica tipo Pie.\n\nSi queires comparar más de dos categorías presiona sobre el botón circular situado al lado derecho del campo.\n\nPara comparar presiona el botón con el tick dentro.</string>
+
+    <!-- Menu -->
+    <string name="ayuda_registrar"><b>Registrar Gastos</b>\n\nEsta pantalla permite registrar gastos, cada gasto tiene cinco categorías de las cuales tres son necesarias para poder guardar: Categoría, Producto, Importe.\n\nUna vez rellenes los campos presiona el botón con un disquete para guardarlo.</string>
+
+
+</resources>

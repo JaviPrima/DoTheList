@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <!-- Item Consultar gasto -->
+        <item
+            android:id="@+id/consultarFragment"
+            android:icon="@drawable/search_outline"
+            android:title="@string/menu_consultar" />
+
+        <!-- Item Registar gasto -->
+        <item
+            android:id="@+id/registrarFragment"
+            android:icon="@drawable/save_outline"
+            android:title="@string/menu_registrar" />
+
+        <!-- Item Comparar gasto -->
+        <item
+            android:id="@+id/comparaFragment"
+            android:icon="@drawable/chart_pie"
+            android:title="@string/menu_comparar" />
+
+    </group>
+</menu>

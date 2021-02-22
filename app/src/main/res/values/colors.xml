@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#D9FFC107</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorBackground">#FDF4DF</color>
+    <color name="colorBackgroundRV">#FFFCF5</color>
+    <color name="colorButton">#F7CD71</color>
+
+    <color name="colorSubtitulo">#2B2B2B</color>
+    <color name="colorOtrositems">#3CFFC107</color>
+
+    <color name="colorRojoQuitar">#94CA00</color>
+
+
+
+</resources>

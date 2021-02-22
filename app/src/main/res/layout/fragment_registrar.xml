@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.RegistrarFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/text_tvCategoria"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etElemento1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/text_etCategoria"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvCategoria"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategoria" />
+
+        <TextView
+            android:id="@+id/tvProductoServicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/text_tvProductoservicio"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/tvCategoria"
+            app:layout_constraintTop_toBottomOf="@+id/etElemento1" />
+
+        <EditText
+            android:id="@+id/etProductoServicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/text_etProductoservicio"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/etElemento1"
+            app:layout_constraintStart_toStartOf="@+id/tvProductoServicio"
+            app:layout_constraintTop_toBottomOf="@+id/tvProductoServicio" />
+
+        <TextView
+            android:id="@+id/tvImporte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/text_tvImporte"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvProductoServicio"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/etProductoServicio"
+            app:layout_constraintTop_toBottomOf="@+id/etProductoServicio" />
+
+        <EditText
+            android:id="@+id/etImporte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/text_etImporte"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="@+id/tvImporte"
+            app:layout_constraintStart_toStartOf="@+id/tvImporte"
+            app:layout_constraintTop_toBottomOf="@+id/tvImporte" />
+
+        <TextView
+            android:id="@+id/tvEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/etImporte"
+            app:layout_constraintStart_toEndOf="@+id/etImporte"
+            app:layout_constraintTop_toBottomOf="@+id/tvImporte" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/text_tvFecha"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tvEuro"
+            app:layout_constraintTop_toTopOf="@+id/tvImporte" />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/text_etFecha"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="@+id/etImporte"
+            app:layout_constraintEnd_toEndOf="@+id/etProductoServicio"
+            app:layout_constraintStart_toStartOf="@+id/tvFecha"
+            app:layout_constraintTop_toBottomOf="@+id/tvFecha" />
+
+        <TextView
+            android:id="@+id/tvComentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/text_etFecha"
+            android:text="@string/text_tvComentario"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etImporte" />
+
+        <EditText
+            android:id="@+id/tmContenido"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:gravity="top|left"
+            android:hint="@string/text_tmComentario"
+            android:inputType="textMultiLine"
+            android:lines="15"
+            android:overScrollMode="always"
+            android:paddingLeft="4dp"
+            android:paddingTop="8dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvComentario" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:src="@drawable/save_outline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:src="@drawable/close_circle_outline"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fabGuardar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

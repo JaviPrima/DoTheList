@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/consultarFragment">
+
+
+    <!-- Fragment Registrar gasto -->
+    <fragment
+        android:id="@+id/registrarFragment"
+        android:name="com.example.myapplication.ui.RegistrarFragment"
+        android:label="@string/menu_registrar"
+        tools:layout="@layout/fragment_registrar" />
+
+    <!-- Fragment Consultar gasto -->
+    <fragment
+        android:id="@+id/consultarFragment"
+        android:name="com.example.myapplication.ui.ConsultarFragment"
+        android:label="@string/menu_consultar"
+        tools:layout="@layout/fragment_consultar" />
+
+    <!-- Fragment Detalles gasto -->
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.example.myapplication.ui.DetallesFragment"
+        android:label="@string/menu_detalles"
+        tools:layout="@layout/fragment_detalles" />
+
+    <!-- Fragment Comparar gastos -->
+    <fragment
+        android:id="@+id/comparaFragment"
+        android:name="com.example.myapplication.ui.ComparaFragment"
+        android:label="@string/menu_comparar"
+        tools:layout="@layout/fragment_compara" />
+
+    <!-- Fragment Filtrar gastos -->
+    <fragment
+        android:id="@+id/filtrarFragment"
+        android:name="com.example.myapplication.ui.FiltrarFragment"
+        android:label="@string/menu_filtrar"
+        tools:layout="@layout/fragment_filtrar" />
+
+    <!-- Fragment Consutar con Filtro gastos -->
+    <fragment
+        android:id="@+id/consultarFragmentFiltro"
+        android:name="com.example.myapplication.ui.ConsultarFragmentFiltro"
+        android:label="@string/menu_filtrado"
+        tools:layout="@layout/fragment_consultar"/>
+
+    <!-- Fragment Buscar para Comparar gastos -->
+    <fragment
+        android:id="@+id/buscarParaCompararFragment"
+        android:name="com.example.myapplication.BuscarParaCompararFragment"
+        android:label="fragment_buscar_para_comparar"
+        tools:layout="@layout/fragment_buscar_para_comparar" >
+    </fragment>
+
+    <!-- Fragment Modificar -->
+    <fragment
+        android:id="@+id/modificarFragment"
+        android:name="com.example.myapplication.ui.ModificarFragment"
+        android:label="Modificar gasto"
+        tools:layout="@layout/fragment_registrar" />
+
+    <!-- Fragment Ayuda Consultar -->
+    <fragment
+        android:id="@+id/ayudaConsultarFragment"
+        android:name="com.example.myapplication.ui.ayudas.AyudaConsultarFragment"
+        tools:layout="@layout/fragment_ayuda_consultar" />
+
+    <!-- Fragment Ayuda Comparar -->
+    <fragment
+        android:id="@+id/ayudaCompararFragment"
+        android:name="com.example.myapplication.ui.ayudas.AyudaCompararFragment"
+        tools:layout="@layout/fragment_ayuda_comparar" />
+
+    <!-- Fragment Ayuda Registrar -->
+    <fragment
+        android:id="@+id/ayudaRegistrarfragment"
+        android:name="com.example.myapplication.ui.ayudas.AyudaRegistrarFragment"
+        tools:layout="@layout/fragment_ayuda_registrar" />
+
+
+</navigation>
